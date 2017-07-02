@@ -3,6 +3,28 @@ body {
 	line-height: 1.8;
 	color: #f5f6f7;
 }
+.mycontainer {
+
+   position: relative;
+   width: 100%;
+	/*padding-top: 42.2225%;*/
+   padding-top: 56.25%; /* 16:9 Aspect Ratio */
+}
+.frame-box{
+	/*height: calc(100% - 20%);*/
+	/*width: calc(100% - 40%);*/
+	height: calc(100% - 30%);
+	width: calc(100% - 30%);
+}
+.yt-box {
+   position:  absolute;
+   top: 0;
+   left: 0;
+   bottom: 0;
+   right: 0;
+}
+
+
 p {font-size: 16px;}
 .margin {margin-bottom: 45px;}
 .dark {color: black;}
