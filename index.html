@@ -31,61 +31,63 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="#">Me</a>
+      <a class="navbar-brand" href="/">Me</a>
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="#">WHO</a></li>
-        <li><a href="#">WHAT</a></li>
-        <li><a href="#">WHERE</a></li>
+        <li><a href="#what">WHAT</a></li>
+        <li><a href="#where">WHERE</a></li>
       </ul>
     </div>
   </div>
 </nav>
 
 <!-- First Container -->
-<div class="container-fluid bg-1 text-center">
+<section class="container-fluid bg-1 text-center">
   <!-- <h3 class="margin">Who Am I?</h3> -->
   <img src="img/avatar.jpg" class="img-responsive img-circle margin" style="display:inline"  width="220">
   <h3>Siddharth Bhavsar</h3>
-</div>
+</section>
 
 <!-- Second Container -->
-<div class="container-fluid bg-3 text-center" style="padding-bottom: 0px;">
-  <h3 class="margin">Who Am I? What do i do?</h3>
-  <div class="mycontainer">
-<div class="yt-box"><iframe class="frame-box" src="" frameborder="0" allowfullscreen></iframe></div>
-</div>
-
-  <!-- <p>coder</p> -->
-  <!-- <a href="#" class="btn btn-default btn-lg">
-    <span class="glyphicon glyphicon-search"></span> Search
-  </a> -->
-</div>
+<section id="what" class="container-fluid bg-3 text-center">
+  <h1 class="margin">What do I do?</h1>
+  <p>I'm' currently working as a Software Engineer at <a href="https://www.marutitech.com/">Maruti Techlabs.</a></p>
+  <div class="row">
+      <div class="col-sm-4 col-sm-offset-4 text-left">
+          <p>I am responsible for,</p>
+            <ul>
+              <li><p>Developing and managing Microservices & API</p></li>
+              <li><p>Developing data integration services</p></li>
+            </ul>          
+      </div>
+  </div>
+</section>
 
 <!-- Third Container (Grid) -->
-<div class="container-fluid bg-2 text-center">
-  <h3 class="margin">Where To Find Me?</h3><br>
+<section id="where" class="container-fluid bg-2 text-center">
+  <h3>Where To Find Me?</h3><br>
   <div class="row">
-    <div class="col-sm-4">
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-      <img src="birds1.jpg" class="img-responsive margin" style="width:100%" alt="Image">
-    </div>
-    <div class="col-sm-4">
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-      <img src="birds2.jpg" class="img-responsive margin" style="width:100%" alt="Image">
-    </div>
-    <div class="col-sm-4">
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-      <img src="birds3.jpg" class="img-responsive margin" style="width:100%" alt="Image">
+      <div class="col-sm-8 col-sm-offset-2">
+        <div class="row">
+            <div class="col-sm-4">
+              <img src="img/GitHub.png" class="img-responsive margin" style="height: 100px; margin: auto;padding-bottom: 10px;" alt="Image">
+                <a href="https://github.com/siddharth2395/" style="color: white">
+              <p>github.com/siddharth2395</p></a>
+            </div>
+            <div class="col-sm-4">
+              <img src="img/LinkedIn.png" class="img-responsive margin" style="height: 100px; margin: auto;padding-bottom: 10px;" alt="Image">
+                <a href="https://www.linkedin.com/in/siddharth-bhavsar" style="color: white">
+              <p>linkedin.com/in/siddharth-bhavsar</p></a>
+            </div>
+            <div class="col-sm-4">
+              <img src="img/Twitter.png" class="img-responsive margin" style="height: 100px; margin: auto;padding-bottom: 10px;" alt="Image">
+                <a href="https://twitter.com/siddharth2395" style="color: white">
+              <p>twitter.com/siddharth2395</p></a>
+            </div>
+        </div>
     </div>
   </div>
-</div>
-
-<!-- Footer -->
-<footer class="container-fluid bg-5 text-center">
-  <p>Made with love in India</a></p>
-</footer>
-
+</section>
 </body>
 </html>
