@@ -11,9 +11,23 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
   <link rel="stylesheet" href="assets/css/main.css" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <!-- <link rel="shortcut icon" href="images/logo.svg"> -->
   <noscript>
-    <link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+    <link rel="stylesheet" href="assets/css/noscript.css" />
+  </noscript>
+  <script>
+    (function (i, s, o, g, r, a, m) {
+      i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+        (i[r].q = i[r].q || []).push(arguments)
+      }, i[r].l = 1 * new Date(); a = s.createElement(o),
+        m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+    ga('create', 'UA-101942433-1', 'auto');
+    ga('send', 'pageview');
+
+  </script>
 </head>
 
 <body class="is-preload">
@@ -33,9 +47,9 @@
       <ul>
         <li><a href="#About" class="active">About</a></li>
         <li><a href="#Experience">Experience</a></li>
-        <li><a href="#Skills">Skills</a></li>
+        <!-- <li><a href="#Skills">Skills</a></li>
         <li><a href="#Work">My work</a></li>
-        <li><a href="#Resume">Resume</a></li>
+        <li><a href="#Resume">Resume</a></li> -->
         <li><a href="#Contact">Contact</a></li>
       </ul>
     </nav>
@@ -50,11 +64,12 @@
             <header class="major">
               <h2>Who am I?</h2>
             </header>
-            <p>I am a programmer, a dog lover, SciFi nut, an <a href="https://www.apple.com">Apple</a> fanboy, a hobbist photographer, a hodophile & engineer at 
+            <p>I am a programmer, a dog lover, SciFi nut, an <a href="https://www.apple.com">Apple</a> fanboy, a hobbist
+              photographer, a hodophile & engineer at
               <a href="https://marutitech.com">Maruti Techlabs Pvt. Ltd.</a>
             </p>
-            <p> 
-            </p>            
+            <p>
+            </p>
           </div>
           <span class="image"><img src="images/pic01.png" alt="" /></span>
         </div>
@@ -68,16 +83,26 @@
         <ul class="features">
           <li>
             <span class="icon solid major style1 fa-desktop"></span>
+            <h3><strong>Senior Software engineer</strong></h3>
+            <a href="https://marutitech.com">Maruti Techlabs Pvt. Ltd.</a>
+            <h5>Sep 2020 - Present</h5>
+            <h5>
+              <!-- I am responsible for developing and managing applications based on Machine learning,
+              Micro-service architecture, Data Integration services, RESTful API Services and Database Modeling. -->
+            </h5>
+          </li>
+          <li>
+            <span class="icon solid major style2 fa-desktop"></span>
             <h3><strong>Software engineer</strong></h3>
             <a href="https://marutitech.com">Maruti Techlabs Pvt. Ltd.</a>
-            <h5>Sep 2017 - Present (3 years)</h5>
+            <h5>Sep 2017 - Aug 2020 (3 years)</h5>
             <h5>
               I am responsible for developing and managing applications based on Machine learning,
               Micro-service architecture, Data Integration services, RESTful API Services and Database Modeling.
             </h5>
           </li>
           <li>
-            <span class="icon solid major style2 fa-building"></span>
+            <span class="icon solid major style3 fa-building"></span>
             <h3><strong>Co-founder and CTO</strong></h3>
             <a href="https://www.linkedin.com/company/shrello/about/">Shrello</a>
             <h5>Feb 2016 - Dec 2016 (11 months)</h5>
@@ -88,7 +113,7 @@
             </h5>
           </li>
           <li>
-            <span class="icon solid major style3 fa-comments"></span>
+            <span class="icon solid major style4 fa-comments"></span>
             <h3><strong>VP engineering</strong></h3>
             <a href="https://www.linkedin.com/company/gisc-ahmedabad/">GTU Innovation and Startup Centre GISC</a>
             <h5>Jul 2015 - Mar 2026 (9 months)</h5>
@@ -97,7 +122,7 @@
               try to develop a mindset to think out of the box.
             </h5>
           <li>
-            <span class="icon solid major style4 fa-book"></span>
+            <span class="icon solid major style5 fa-book"></span>
             <h3><strong>Associate</strong></h3>
             <a href="https://www.linkedin.com/company/gisc-ahmedabad/">GTU Innovation and Startup Centre GISC</a>
             <h5>Jul 2015 - Feb 2026 (8 months)</h5>
@@ -110,18 +135,18 @@
       </section>
 
       <!-- Skills Section -->
-      <section id="Skills" class="main special">
+      <!-- <section id="Skills" class="main special">
         <header class="major">
           <h2>Skills</h2>
         </header>
-      </section>
-      
+      </section> -->
+
       <!-- My Work Section -->
-      <section id="Work" class="main special">
+      <!-- <section id="Work" class="main special">
         <header class="major">
           <h2>My work</h2>
         </header>
-      </section>Î
+      </section> -->
 
 
     </div>
@@ -151,9 +176,14 @@
           <dd><a href="#">siddharth2395@gmail.com</a></dd>
         </dl>
         <ul class="icons">
-          <li><a href="#" class="icon brands fa-github alt"><span class="label">GitHub</span></a></li>
-          <li><a href="#" class="icon brands fa-twitter alt"><span class="label">Twitter</span></a></li>
-          <li><a href="#" class="icon brands fa-instagram alt"><span class="label">Instagram</span></a></li>
+          <li><a href="https://linkedin.com/in/siddharth-bhavsar/" target="_blank" class="icon brands fa-linkedin alt"><span
+                class="label">LinkedIn</span></a></li>
+          <li><a href="https://github.com/siddharth2395" target="_blank" class="icon brands fa-github alt"><span
+                class="label">GitHub</span></a></li>
+          <li><a href="https://twitter.com/siddharth2395" target="_blank" class="icon brands fa-twitter alt"><span
+                class="label">Twitter</span></a></li>
+          <li><a href="https://www.instagram.com/siddharth_313rd/" target="_blank" class="icon brands fa-instagram alt"><span
+                class="label">Instagram</span></a></li>
         </ul>
       </section>
       <p class="copyright">&copy; Siddharth Bhavsar</p>
