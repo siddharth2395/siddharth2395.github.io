@@ -26,12 +26,26 @@
 
     ga('create', 'UA-101942433-1', 'auto');
     ga('send', 'pageview');
-
+    
+    /* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
+    function myFunction() {
+      var x = document.getElementById("myTopnav");
+      if (x.className === "topnav") {
+        x.className += " responsive";
+      } else {
+        x.className = "topnav";
+      }
+    }
   </script>
 </head>
 
 <body class="is-preload">
-
+  <div class="topnav" id="myTopnav">
+    <a style="-webkit-tap-highlight-color: #e37682;" href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+    <a style="-webkit-tap-highlight-color: #e37682;" href="/">Home</a>    
+    <a style="-webkit-tap-highlight-color: #e37682;" href="/#Contact">Contact</a>    
+    <a style="-webkit-tap-highlight-color: #e37682;" href="/#About">About</a>
+  </div>
   <!-- Wrapper -->
   <div id="wrapper">
 
@@ -64,7 +78,8 @@
             <header class="major">
               <h2>Who am I?</h2>
             </header>
-            <p>I am a programmer, a dog lover, SciFi nut, an <a href="https://www.apple.com" target="_blank">Apple</a> fanboy, a hobbist
+            <p>I am a programmer, a dog lover, SciFi nut, an <a href="https://www.apple.com" target="_blank">Apple</a>
+              fanboy, a hobbist
               photographer, a hodophile & engineer at
               <a href="https://marutitech.com" target="_blank">Maruti Techlabs Pvt. Ltd.</a>
             </p>
@@ -89,7 +104,7 @@
             <p>
               I am responsible for developing and managing applications based on Machine learning,
               Micro-service architecture, Data Integration services, RESTful API Services and Database Modeling.
-              </p>
+            </p>
           </li>
           <li>
             <span class="icon solid major style2 fa-desktop"></span>
@@ -176,14 +191,14 @@
           <dd><a href="mailto:siddharth2395@gmail.com">siddharth2395@gmail.com</a></dd>
         </dl>
         <ul class="icons">
-          <li><a href="https://linkedin.com/in/siddharth-bhavsar/" target="_blank" class="icon brands fa-linkedin alt"><span
-                class="label">LinkedIn</span></a></li>
+          <li><a href="https://linkedin.com/in/siddharth-bhavsar/" target="_blank"
+              class="icon brands fa-linkedin alt"><span class="label">LinkedIn</span></a></li>
           <li><a href="https://github.com/siddharth2395" target="_blank" class="icon brands fa-github alt"><span
                 class="label">GitHub</span></a></li>
           <li><a href="https://twitter.com/siddharth2395" target="_blank" class="icon brands fa-twitter alt"><span
                 class="label">Twitter</span></a></li>
-          <li><a href="https://www.instagram.com/siddharth_313rd/" target="_blank" class="icon brands fa-instagram alt"><span
-                class="label">Instagram</span></a></li>
+          <li><a href="https://www.instagram.com/siddharth_313rd/" target="_blank"
+              class="icon brands fa-instagram alt"><span class="label">Instagram</span></a></li>
         </ul>
       </section>
       <p class="copyright">&copy; Siddharth Bhavsar</p>
@@ -199,7 +214,6 @@
   <script src="assets/js/breakpoints.min.js"></script>
   <script src="assets/js/util.js"></script>
   <script src="assets/js/main.js"></script>
-
 </body>
 
 </html>
